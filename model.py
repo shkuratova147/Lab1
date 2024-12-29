@@ -8,3 +8,4 @@ model.add(Dense(1, input_shape=(1,)))
 model.compile(optimizer='adam', loss='mean_squared_error')
 # Огляд структури моделі
 model.summary()
+
